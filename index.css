@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* THE BLUE GRADIENT BACKGROUND */
+  background: linear-gradient(135deg, #0c1445, #1a2980, #26d0ce);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* --- HERO SECTION --- */
+section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+div.left {
+  width: 50%;
+}
+
+div.left h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+div.left h1 span {
+  color: #26d0ce; /* LIGHT BLUE COLOR FOR NAME */
+}
+
+div.left p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+/* --- BUTTONS DESIGN --- */
+div.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+div.buttons a {
+  text-decoration: none;
+  padding: 12px 25px;
+  border: 1px solid white; /* WHITE BORDER */
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT (WHEN MOUSE IS ON IT) */
+div.buttons a:hover {
+  background-color: #26d0ce; /* TURNS LIGHT BLUE */
+  color: #0c1445; /* DARK TEXT */
+  border-color: #26d0ce;
+}
+
+/* --- IMAGE --- */
+div.right {
+  width: 40%;
+}
+
+div.right img {
+  width: 100%;
+  border-radius: 10px;
+}
+

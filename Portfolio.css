@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(135deg, #0c1445, #1a2980, #26d0ce);
+  color: white;
+  font-family: sans-serif;
+}
+
+/* --- CONTAINER --- */
+.container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #26d0ce;
+}
+
+/* --- PROJECTS --- */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 50%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+
+}
+
+.project-card p {
+  color: #e0e0e0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: rgba(0, 0, 0, 0.2); /* slight dark background */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  gap: 15px;  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  transition: 0.3s;
+  border: 1px solid white;
+}
+
+nav ul li a:hover {
+  background-color: #26d0ce;
+  color: #0c1445;
+  background-color: #26d0ce;
+}
+
+.projects-wrapper {
+  display: flex;          /* THIS PUTS IMAGES SIDE BY SIDE */
+  justify-content: center;
+  gap: 20px;              /* SPACE BETWEEN IMAGES */
+  flex-wrap: wrap;
+  margin-bottom: 30px;    /* SPACE BEFORE THE TEXT BOX */
+}
+
+.project-img {
+  width: 250px;           /* SIZE OF EACH IMAGE */
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* --- DESCRIPTION BOX --- */
+.project-description {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 25px;
+  width: 80%;             /* MAKE IT WIDE */
+  margin: 0 auto;         /* CENTER IT */
+  backdrop-filter: blur(10px);
+}
+
+.project-description p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  text-align: left;
+}
